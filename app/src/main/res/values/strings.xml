@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UApp</string>
+    <string name="error_server">Server Error</string>
+    <string name="error_try_again">Pull to try again</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="username">%1$s %2$s</string>
+    <string name="userdata">%1$s years - %2$s</string>
+    <string name="userAge">%1$s years</string>
+    <string name="photoTransitionName">photoTransitionName</string>
+    <string name="noPhone">No Phone</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_size">200dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="camera_size">150dp</dimen>
+    <dimen name="photo_size">130dp</dimen>
+    <dimen name="detail_photo_size">200dp</dimen>
+    <dimen name="heart_size">150dp</dimen>
+    <dimen name="flash_size">80dp</dimen>
+    <dimen name="child_heart_size">50dp</dimen>
+    <dimen name="main_heart_size">80dp</dimen>
+</resources>

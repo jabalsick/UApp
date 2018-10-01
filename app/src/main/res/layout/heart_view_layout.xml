@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <View
+        android:id="@+id/heart1"
+        android:layout_width="@dimen/child_heart_size"
+        android:layout_height="@dimen/child_heart_size"
+        android:layout_alignStart="@+id/heart2"
+        android:layout_alignTop="@+id/heart4"
+        android:background="@drawable/ic_like" />
+
+    <View
+        android:id="@+id/heart2"
+        android:layout_width="@dimen/child_heart_size"
+        android:layout_height="@dimen/child_heart_size"
+        android:layout_alignBottom="@+id/mainHeart"
+        android:layout_alignStart="@+id/mainHeart"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/ic_like" />
+
+    <View
+        android:id="@+id/heart3"
+        android:layout_width="@dimen/child_heart_size"
+        android:layout_height="@dimen/child_heart_size"
+        android:layout_alignTop="@+id/heart2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_like" />
+
+    <View
+        android:id="@+id/heart4"
+        android:layout_width="@dimen/child_heart_size"
+        android:layout_height="@dimen/child_heart_size"
+        android:layout_alignStart="@+id/heart3"
+        android:layout_alignTop="@+id/mainHeart"
+        android:layout_marginStart="17dp"
+        android:background="@drawable/ic_like" />
+
+    <View
+        android:id="@+id/mainHeart"
+        android:layout_width="@dimen/main_heart_size"
+        android:layout_height="@dimen/main_heart_size"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ic_like"/>
+</RelativeLayout>
